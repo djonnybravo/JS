@@ -1,7 +1,3 @@
-function checkAlive (health) {
-    if (health <= 0) {    
-      return false;
-    } else  {
-      return true;
+function noSpace(x){
+    return(x.replace(/\s/g, ""));
     }
-  }
