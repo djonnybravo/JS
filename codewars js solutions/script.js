@@ -1,4 +1,5 @@
-const stringToNumber = function(str){
-    str = Number(str);
-     return(str)
-   }
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+     return Math.min.apply(null, args)
+    }
+  }
