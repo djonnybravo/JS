@@ -1,3 +1,4 @@
-function noSpace(x){
-    return(x.replace(/\s/g, ""));
-    }
+const stringToNumber = function(str){
+    str = Number(str);
+     return(str)
+   }
