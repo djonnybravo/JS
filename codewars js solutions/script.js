@@ -1,3 +1,3 @@
-function numberToString(num) {
-    return String(num)
+function makeUpperCase(str) {
+    return str.toUpperCase()
    }
