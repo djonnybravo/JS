@@ -1,3 +1,4 @@
-function multiply(a, b){
-    return a * b;
-   }
+function removeUrlAnchor(url){
+    urlSplit = url.split('#')[0]
+    return(urlSplit)
+  }
