@@ -1,13 +1,7 @@
-function basicOp(operation, value1, value2)
-{
-  if (operation == '+') {
-    return value1 + value2    
-  } else if(operation == '-' ) {
-    return value1 - value2
-  } else if(operation == '*') {
-    return value1 * value2
-  } else if(operation == '/') {
-    return value1 / value2
-  }
+function solution (str, ending) {
+   
+    return str.endsWith(ending);
     
-}
+}  
+
+console.log(solution("hello", "llos"));
