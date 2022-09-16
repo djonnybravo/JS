@@ -1,3 +1,7 @@
-function repeatStr (n, s) {
-  return s.repeat(n);
+function greet (name, owner) {
+  if (name == owner) {
+    return "Hello boss"
+  } else {
+    return "Hello guest"
+  }
 }
