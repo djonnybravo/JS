@@ -1,7 +1,6 @@
-function greet (name, owner) {
-  if (name == owner) {
-    return "Hello boss"
-  } else {
-    return "Hello guest"
-  }
-}
+function monkeyCount(n) {
+  let count = [];
+   for (let i = 1;i<=n;i++){
+     count.push(i)}
+   return count;
+ }
