@@ -1,3 +1,3 @@
-function greet() {
-  return "hello world!";
-}
+function grow(x){
+  return x.reduce((acc, rec) => acc * rec);
+ } 
