@@ -1,6 +1,3 @@
-function remove (string) {
-  if (string.endsWith("!")) {
-    return string.substring(0, string.length - 1);
+function maps(x){
+  return x.map((num) => num * 2);
   }
-  return string;
-}
