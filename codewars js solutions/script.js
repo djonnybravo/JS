@@ -1,5 +1,3 @@
-function stringToArray(string){
-  
-  return string.split(" ")
-
+function repeatStr (n, s) {
+  return s.repeat(n);
 }
