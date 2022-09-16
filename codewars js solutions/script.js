@@ -1,3 +1,3 @@
-function fixTheMeerkat(arr) {
-  return arr.reverse() 
- }
+function opposite(number) {
+  return (-number);
+}
